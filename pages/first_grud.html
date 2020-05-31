@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <title>Fullstack - IGTI</title>
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <script src="../script/script.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <!--Menu-->
+  <section class="header">
+    <img src="../assets/bootcamp.png" />
+    <h1> Bootcamp Online - IGTI</h1>
+  </section>
+
+  <section class="topnav">
+    <a href="#moduloI">Fundamentos</a>
+    <a href="#moduloII">Desenvolvimento APIS</a>
+    <a href="#moduloIII">FrontEnd com React</a>
+    <a href="#moduloIV">Persistencia de Dados</a>
+    <a href="#desafio" style="float:right">Desafio Final</a>
+  </section>
+
+  <!--moduloI-->
+  <a name="moduloI"></a>
+  <section class="moduloI">
+    <div class="contentBx">
+      <h2 class="heading">Fundamentos</h2>
+      <p class="text">
+      <ul>
+        <li>Introdução, instalação e configuração do Visual Studio Code (VSCode).</li>
+        <li>Instalação do Node.js. Instalação da biblioteca live-server.</li>
+        <li>Noções de HTML e CSS. Introdução ao JavaScript. </li>
+        <li>Integração do JavaScript com o HTML e CSS. </li>
+        <li>JavaScript básico
+          <ul>
+            <li>console</li>
+            <li>comentários</li>
+            <li>tipos primitivos</li>
+            <li>variáveis</li>
+            <li>APIs nativas de servidor e web</li>
+            <li>funções</li>
+            <li>estruturas de decisão</li>
+            <li>estruturas de repetição e manipulação de eventos</li>
+          </ul>
+        </li>
+      </ul>
+      </p>
+    </div>
+    <div class="imgBx">
+      <h2 class="heading">Trabalho Prático do Módulo 1</h2>
+      <div class="slider-wrapper">
+        <label for="points" class="vermelho">(R) Vermelho:</label>
+        <input type="range" min="0" max="255" step="1" value="0" id="rgb_vermelho" onchange="getValue()">
+        <input type="text" id="fname1" disabled=false size=5 value="0"><br>
+
+        <label for="points" class="verde">(G) Verde:</label>
+        <input type="range" min="0" max="255" step="1" value="0" id="rgb_verde" onchange="getValue()">
+        <input type="text" id="fname2" disabled=false size=5 value="0"><br>
+
+        <label for="points" class="azul">(B) Azul:</label>
+        <input type="range" min="0" max="255" step="1" value="0" id="rgb_azul" onchange="getValue()">
+        <input type="text" id="fname3" disabled=false size=5 value="0"><br>
+
+      </div>
+      <br><br>
+      <div id="color">
+        <textarea id="idtext" rows="10" cols="30" disabled=false></textarea>
+      </div>
+    </div>
+  </section>
+
+  <!--moduloI-->
+  <a name="moduloII"></a>
+  <section class="moduloII">
+    <div class="imgBx"></div>
+    <div class="contentBx">
+      <h2 class="heading">Desenvolvimento de APIs</h2>
+      <p class="text">
+        Introdução ao desenvolvimento backend. Backend x frontend. Introdução ao
+        desenvolvimento de APIs. Introdução ao desenvolvimento com Node.js.
+        <br>Introdução ao Express. Criação de requisições HTTP, rotas e middlewares com
+        Express.
+        <br>Introdução à ferramenta Insomnia. Construção de APIs HTTP, utilizando as
+        principais operações: GET, POST, PUT e DELETE.
+        <br>Desenvolvimento das operações CRUD. Persistência de dados em arquivos.
+      </p>
+    </div>
+  </section>
+
+  <!--moduloI-->
+  <a name="moduloIII"></a>
+  <section class="moduloIII">
+    <div class="contentBx">
+      <h2 class="heading">FrontEnd com React</h2>
+      <p class="text">
+        Instalação e configuração do React. Criação de projetos com o create-reactapp.
+        <br>Introdução ao React – JSX, componentes de funções e componentes de
+        classe.
+        <br>State, Props, Binding e Interpolação.
+        <br>Comunicação entre componentes. Ciclo de vida de componentes de classe.
+        Introdução às requisições HTTP com React.
+        <br>Roteamento com react-router. Introdução ao Ionic React.
+        <br>Criação de um pequeno projeto passo a passo com React.
+      </p>
+    </div>
+    <div class="imgBx"></div>
+  </section>
+
+  <!--moduloI-->
+  <a name="moduloIV"></a>
+  <section class="moduloIV">
+    <div class="imgBx"></div>
+    <div class="contentBx">
+      <h2 class="heading">Persistência de dados, versionamento de código e implantação</h2>
+      <p class="text">
+        Introdução ao MongoDB. Utilização do serviço mLab. Integrando a API ao
+        MongoDB no mLab.
+        <br>Introdução ao Git. Instalação do git. Principais comandos do Git.
+        <br>Como publicar aplicações no Github. Introdução ao Heroku. Instalação do
+        Heroku CLI.
+        <br>Como implantar aplicações no Heroku.
+      </p>
+    </div>
+  </section>
+
+  <!--moduloI-->
+  <a name="desafio"></a>
+  <section class="desafio">
+    <div class="contentBx">
+      <h2 class="heading">Desafio Final</h2>
+      <p class="text">
+        Entrega do Desafio Final.
+      </p>
+    </div>
+    <div class="imgBx"></div>
+  </section>
+
+  <!--Footer-->
+  <section class="footer">
+    <p class="text">Desenvolvido por Marcelo Schoeffel</p>
+    <ul>
+      <p class="Text">Siga-nos:</p>
+      <li><a href="https://github.com/ganlith" target="_blank"><img src="../assets/git.png" title="GitHub"></a></li>
+      <li><a href="https://www.linkedin.com/in/mschoeffel/" target="_blank"><img src="../assets/linkedin.png"
+            title="Linkedin"></a></li>
+    </ul>
+  </section>
+
+</body>
+
+</html>
